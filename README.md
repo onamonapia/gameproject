@@ -4,8 +4,8 @@
 With the arrow keys, move the hero to collect the multiple of 12 that's shown in the upper left-hand corner before time runs out. \
 Collect the asteroid for a time and point bonus.\
 Once the game ends, wait 10 seconds to restart. \
-\\
-
+\
+\
 ---
 ## Sources: 
 ### Images: 
