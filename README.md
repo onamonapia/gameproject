@@ -20,3 +20,7 @@ https://mixkit.co/free-sound-effects/game/
 - success sound: "Bonus earned in video game"
 - fail sound: "Arcade mechanical bling"
 
+---
+(I should have put all of the number variables in an array and used for loops to define all the functions/if statements/etc. 
+When I first tried it, it didn't work and I didn't bother to try to fix it. So that's just how it is now. If I'd done it that 
+way, I probably would've tried to prevent overlapping numbers. I like to think of it as an extra challenge...)
