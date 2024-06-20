@@ -267,6 +267,8 @@ var monster = {
 var monstersCaught = 0;
 var lives = 3;
 
+// probably should have put these all in a list so I could call them all with a for loop or something
+// but it's way too late now
 var one = {
     x: 0, 
     y: 0
@@ -572,6 +574,8 @@ var update = function (modifier) {
             && hero.y <= (one.y + 50)
            && one.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -584,6 +588,8 @@ var update = function (modifier) {
             && hero.y <= (two.y + 50)
            && two.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -596,6 +602,8 @@ var update = function (modifier) {
             && hero.y <= (three.y + 50)
            && three.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -608,6 +616,8 @@ var update = function (modifier) {
             && hero.y <= (four.y + 50)
            && four.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -620,6 +630,8 @@ var update = function (modifier) {
             && hero.y <= (five.y + 50)
            && five.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -632,6 +644,8 @@ var update = function (modifier) {
             && hero.y <= (six.y + 50)
            && six.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -645,6 +659,8 @@ var update = function (modifier) {
             && hero.y <= (seven.y + 50)
            && seven.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -657,6 +673,8 @@ var update = function (modifier) {
             && hero.y <= (eight.y + 50)
            && eight.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -669,6 +687,8 @@ var update = function (modifier) {
             && hero.y <= (nine.y + 50)
            && nine.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -681,6 +701,8 @@ var update = function (modifier) {
             && hero.y <= (ten.y + 50)
            && ten.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -693,6 +715,8 @@ var update = function (modifier) {
             && hero.y <= (eleven.y + 50)
            && eleven.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -705,6 +729,8 @@ var update = function (modifier) {
             && hero.y <= (twelve.y + 50)
            && twelve.y <= (hero.y + 50)
         ) {
+            soundEfx.src = soundLose;
+            soundEfx.play();
             --lives;
             reset();
         }
@@ -814,62 +840,62 @@ var update = function (modifier) {
     // stops from popping up around the hero
 
     if (one.x <= 600 && one.x >= 400 && one.y <= 600 && one.y <= 400) {
-        one.x = 1000;
-        one.y = 0;
+        one.x = 500;
+        one.y = 50;
     }
     if (two.x <= 600 && two.x >= 400 && two.y <= 600 && two.y <= 400) {
-        two.x = 1000;
-        two.y = 0;
+        two.x = 500;
+        two.y = 50;
     }
 
     if (three.x <= 600 && three.x >= 400 && three.y <= 600 && three.y <= 400) {
-        three.x = 1000;
-        three.y = 0;
+        three.x = 500;
+        three.y = 50;
     }
 
     if (four.x <= 600 && four.x >= 400 && four.y <= 600 && four.y <= 400) {
-        four.x = 1000;
-        four.y = 0;
+        four.x = 500;
+        four.y = 50;
     }
 
     if (five.x <= 600 && five.x >= 400 && five.y <= 600 && five.y <= 400) {
-        five.x = 1000;
-        five.y = 0;
+        five.x = 500;
+        five.y = 50;
     }
 
     if (six.x <= 600 && six.x >= 400 && six.y <= 600 && six.y <= 400) {
-        six.x = 1000;
-        six.y = 0;
+        six.x = 500;
+        six.y = 50;
     }
 
     if (seven.x <= 600 && seven.x >= 400 && seven.y <= 600 && seven.y <= 400) {
-        seven.x = 1000;
-        seven.y = 0;
+        seven.x = 500;
+        seven.y = 50;
     }
 
     if (eight.x <= 600 && eight.x >= 400 && eight.y <= 600 && eight.y <= 400) {
-        eight.x = 1000;
-        eight.y = 0;
+        eight.x = 500;
+        eight.y = 50;
     }
 
     if (nine.x <= 600 && nine.x >= 400 && nine.y <= 600 && nine.y <= 400) {
-        nine.x = 1000;
-        nine.y = 0;
+        nine.x = 500;
+        nine.y = 50;
     }
 
     if (ten.x <= 600 && ten.x >= 400 && ten.y <= 600 && ten.y <= 400) {
-        ten.x = 1000;
-        ten.y = 0;
+        ten.x = 500;
+        ten.y = 50;
     }
 
     if (eleven.x <= 600 && eleven.x >= 400 && eleven.y <= 600 && eleven.y <= 400) {
-        eleven.x = 1000;
-        eleven.y = 0;
+        eleven.x = 500;
+        eleven.y = 50;
     }
 
     if (twelve.x <= 600 && twelve.x >= 400 && twelve.y <= 600 && twelve.y <= 400) {
-        twelve.x = 1000;
-        twelve.y = 0;
+        twelve.x = 500;
+        twelve.y = 50;
     }
     
 
@@ -903,6 +929,15 @@ var update = function (modifier) {
 
 }
 var reset = function () {
+    
+        
+    if (lives == 0) {
+        ctx.drawImage(loseImage, 0, 0);        
+        monstersCaught = 0;
+        lives = 3;
+        wait = Date.now() + 10000;
+    }
+    
     hero.x = canvas.width / 2;
     hero.y = canvas.height / 2;
     monster.x = 32 + (Math.random() * (canvas.width - 96));
