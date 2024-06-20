@@ -931,7 +931,7 @@ var update = function (modifier) {
 var reset = function () {
     
         
-    if (lives == 0) {
+    if (lives <= 0) {
         ctx.drawImage(loseImage, 0, 0);        
         monstersCaught = 0;
         lives = 3;
